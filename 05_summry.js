@@ -32,3 +32,12 @@ let id2=id1;
 id2=43;
 console.log(id1)
 console.log(id2)
+
+let user={
+    name:"Aman",
+    age:24
+}
+
+let user1=user
+user1.name="Rajat"
+console.log(user.name)
